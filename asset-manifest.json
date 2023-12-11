@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hday/static/css/main.9d905e94.css",
+    "main.js": "/hday/static/js/main.528f1783.js",
+    "static/js/787.9aef2cc1.chunk.js": "/hday/static/js/787.9aef2cc1.chunk.js",
+    "static/media/image.jpg": "/hday/static/media/image.e75239ca1795f4a057e4.jpg",
+    "index.html": "/hday/index.html",
+    "main.9d905e94.css.map": "/hday/static/css/main.9d905e94.css.map",
+    "main.528f1783.js.map": "/hday/static/js/main.528f1783.js.map",
+    "787.9aef2cc1.chunk.js.map": "/hday/static/js/787.9aef2cc1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d905e94.css",
+    "static/js/main.528f1783.js"
+  ]
+}
