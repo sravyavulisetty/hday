@@ -1,38 +1,201 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+.container {
+	position: relative;
+	text-align: center;
+	font-family: 'Mochiy Pop P One', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.item {
+	position: absolute;
+	animation: diagonal-move-anim 1s ease-in-out forwards;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.item1 {
+	position: absolute;
+	animation: a 1.5s ease-in-out forwards;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.item2 {
+	position: absolute;
+	animation: b 2s ease-in-out forwards;
 }
-
-.App-link {
-  color: #61dafb;
+.item3 {
+	position: absolute;
+	animation: c 2.5s ease-in-out forwards;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item4 {
+	position: absolute;
+	animation: d 3s ease-in-out forwards;
+}
+.item5 {
+	position: absolute;
+	animation: e 1s ease-in-out forwards;
+}
+.item6 {
+	position: absolute;
+	animation: f 1.5s ease-in-out forwards;
+}
+.item7 {
+	position: absolute;
+	animation: g 2s ease-in-out forwards;
+}
+.item8 {
+	position: absolute;
+	animation: h 2.5s ease-in-out forwards;
+}
+.item9 {
+	position: absolute;
+	animation: i 3s ease-in-out forwards;
+}
+.item10 {
+	position: absolute;
+	animation: j 3.5s ease-in-out forwards;
+}
+.item11 {
+	position: absolute;
+	animation: k 4s ease-in-out forwards;
+}
+.item12 {
+	position: absolute;
+	animation: l 4.5s ease-in-out forwards;
+}
+.item13{
+	position: absolute;
+	animation: m 3.75s ease-in-out forwards;
+}
+@keyframes diagonal-move-anim {
+	0% {
+		transform: translate(0, 0);
+        font-size: 10px;
+	}
+	100% {
+        font-size: 40px;
+		transform: translate(80px, 150px);
+		transform-origin: center;
+	}
+}
+@keyframes a {
+	0% {
+		transform: translate(0px, 0px);
+        font-size: 10px;
+	}
+	100% {
+        font-size: 40px;
+		transform: translate(110px, 150px);
+	}
+}
+@keyframes b {
+	0% {
+		transform: translate(0px, 0px);
+        font-size: 10px;
+	}
+	100% {
+        font-size: 40px;
+		transform: translate(140px, 150px);
+	}
+}
+@keyframes c {
+	0% {
+		transform: translate(0px, 0px);
+        font-size: 10px;
+	}
+	100% {
+        font-size: 40px;
+		transform: translate(170px, 150px);
+	}
+}
+@keyframes d {
+	0% {
+		transform: translate(0px, 0px);
+        font-size: 10px;
+	}
+	100% {
+        font-size: 40px;
+		transform: translate(200px, 150px);
+	}
+}
+@keyframes e {
+	0% {
+		transform: translate(100px, 0px);
+        font-size: 10px;
+	}
+	100% {
+        font-size: 40px;
+		transform: translate(50px, 210px);
+	}
+}
+@keyframes f {
+	0% {
+		transform: translate(100px, 0px);
+        font-size: 10px;
+	}
+	100% {
+        font-size: 40px;
+		transform: translate(80px, 210px);
+	}
+}
+@keyframes g {
+	0% {
+		transform: translate(100px, 0px);
+        font-size: 10px;
+	}
+	100% {
+        font-size: 40px;
+		transform: translate(90px, 210px);
+	}
+}
+@keyframes h {
+	0% {
+		transform: translate(100px, 0px);
+        font-size: 10px;
+	}
+	100% {
+        font-size: 40px;
+		transform: translate(120px, 210px);
+	}
+}
+@keyframes i {
+	0% {
+		transform: translate(100px, 0px);
+        font-size: 10px;
+	}
+	100% {
+        font-size: 40px;
+		transform: translate(150px, 210px);
+	}
+}
+@keyframes j {
+	0% {
+		transform: translate(100px, 0px);
+        font-size:10px;
+	}
+	100% {
+        font-size: 40px;
+		transform: translate(180px, 210px);
+	}
+}
+@keyframes k {
+	0% {
+		transform: translate(100px, 0px);
+        font-size: 10px;
+	}
+	100% {
+        font-size: 40px;
+		transform: translate(210px, 210px);
+	}
+}
+@keyframes l {
+	0% {
+		transform: translate(100px, 0px);
+        font-size: 10px;
+	}
+	100% {
+        font-size: 40px;
+		transform: translate(240px, 210px);
+	}
+}
+@keyframes m {
+	0% {
+		transform: translate(0px, 160px);
+	}
+	100% {
+		transform: translate(290px, 150px);
+	}
 }
